@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nicholas H. Roy / Resources for the Future"
+title                    : "Nicholas H. Roy"
 title_separator          : "-"
 name                     : &name "Nicholas H. Roy"
 description              : &description ""
@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "Energy economist analyzing federal climate policy and development of state level climate policies"
   location         : "Washington D.C."
-  employer         : "www.rff.org"
+  employer         : "Resources for the Future"
   pubmed           : ""
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=NSh5dWEAAAAJ"
   email            : "roy@rff.org"
