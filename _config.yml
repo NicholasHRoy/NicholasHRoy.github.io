@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nicholas H. Roy"
+title                    : "Nicholas H. Roy / Resources for the Future"
 title_separator          : "-"
 name                     : &name "Nicholas H. Roy"
-description              : &description "Energy economist analyzing federal climate policy and development of state level climate policies"
+description              : &description ""
 url                      : https://nicholasroy.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NicholasHRoy/NicholasHRoy.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
+  bio              : "Energy economist analyzing federal climate policy and development of state level climate policies"
+  location         : "Washington D.C."
+  employer         : "Resources for the Future"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=NSh5dWEAAAAJ"
+  email            : "roy@rff.org"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
