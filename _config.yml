@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "profile.jpeg"
+  avatar           : "profile.jpg"
   bio              : "Energy economist analyzing federal climate policy and development of state level emissions trading programs"
   location         : "Washington D.C."
   employer         : "Resources for the Future"
