@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Bio
-======
-
-Hi! My name is Nicholas Roy and I am an economist focused on climate policy in the United States. My work has primarily focused on power sector decarbonization and I have a general background in international trade and transportation research. I'll be applying to graduate programs this upcoming cycle to start a PhD in Fall 2025. This website serves as a place for me to collect my work I have done so far, and as a home for future work throughout my career.
+Hi! My name is Nick Roy and I am an economist focused on climate policy in the United States. My work has primarily focused on power sector decarbonization and I have a general background in international trade and transportation research. I'll be applying to graduate programs this upcoming cycle to start a PhD in Fall 2025. This website serves as a place for me to collect my work I have done so far, and as a home for future work throughout my career.
 
 Currently, I am a Research Associate at Resources for the Future (RFF). Here I have developed and utilized the Haiku Electricity Market Model to analyze climate policy. I started by working broadly on the development of federal climate policy first by analyzing potential components of the Build Back Better package and as time progressed, the Inflation Reduction Act (IRA). Since then I have worked on the development of California's Cap-and-Trade program looking at market reforms to ensure robust emissions reductions and integrate environmental justice policy design mechanisms. The continuation of our federal climate policy work exists in the Carbon Scoring Project which aims to develop a methodology for socring the carbon impact of a bill similar to how the Congressional Budget Office (CBO) scores the budgetary impact of legislation. 
 
