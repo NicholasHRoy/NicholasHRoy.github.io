@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Energy economist analyzing federal climate policy and development of state level climate policies"
+  avatar           : "profile.jpeg"
+  bio              : "Energy economist analyzing federal climate policy and development of state level emissions trading programs"
   location         : "Washington D.C."
   employer         : "Resources for the Future"
-  pubmed           : ""
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=NSh5dWEAAAAJ"
   email            : "roy@rff.org"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Nicholas-Roy-3"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "NicholasHRoy"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-9307-4196"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "Nick_HRoy"
   vine             :
   weibo            :
   xing             :
