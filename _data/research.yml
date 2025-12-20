@@ -1,192 +1,229 @@
 # Research Publications Database
-# Each entry has: title, url, year, type
+# Each entry has: title, url, year, type, venue
 
 # JOURNAL ARTICLES
 - title: "A Retrospective Analysis of Heavy-Duty Vehicle Tailpipe Nitrogen Oxides Emissions Standards"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S1361920925004754"
   year: 2025
   type: journal
+  venue: Transportation Research Part D
 
 - title: "Seizing the policy opportunities for health- and equity-improving energy decisions"
   url: "https://www.cell.com/one-earth/abstract/S2590-3322(24)00601-8"
   year: 2025
   type: journal
+  venue: One Earth
 
 - title: "Impacts of EPA's finalized power plant greenhouse gas standards"
   url: "https://www.science.org/doi/10.1126/science.adt5665"
   year: 2025
   type: journal
+  venue: Science
 
 - title: "Power Sector Impacts of the Inflation Reduction Act of 2022"
   url: "https://iopscience.iop.org/article/10.1088/1748-9326/ad0d3b"
   year: 2024
   type: journal
+  venue: Environmental Research Letters
 
 - title: "Emissions and Energy Impacts of the Inflation Reduction Act"
   url: "https://www.science.org/doi/10.1126/science.adg3781"
   year: 2023
   type: journal
+  venue: Science
 
 # WORKING PAPERS
 - title: "Considerations for Washington's Linkage Negotiations with California and Quebec"
   url: "https://www.rff.org/publications/reports/considerations-for-washingtons-linkage-negotiations-with-california-and-quebec/"
   year: 2025
   type: working-paper
+  venue: RFF
 
 - title: "Policy Opportunities for Achieving Maryland's Clean Energy Goals"
   url: "https://www.rff.org/publications/working-papers/policy-opportunities-for-achieving-marylands-clean-energy-goals/"
   year: 2025
   type: working-paper
+  venue: RFF
 
 - title: "Developing a Carbon Dioxide Removal Program in California"
   url: "https://www.rff.org/publications/working-papers/developing-a-carbon-dioxide-removal-program-in-california/"
   year: 2024
   type: working-paper
+  venue: RFF
 
 - title: "Carbon Scoring: An Initial Baseline"
   url: "https://www.rff.org/publications/carbon-scores/carbon-scoring-initial-baseline/"
   year: 2024
   type: working-paper
+  venue: RFF
 
 - title: "Designing for Uncertainty: Amendments to California's Cap-and-Trade Market"
   url: "https://www.rff.org/publications/reports/designing-for-uncertainty-amendments-to-californias-cap-and-trade-market/"
   year: 2024
   type: working-paper
+  venue: RFF
 
 - title: "How Facility-Specific Emissions Caps Affect the California Carbon Market?"
   url: "https://www.rff.org/publications/reports/how-would-facility-specific-emissions-caps-affect-the-california-carbon-market/"
   year: 2023
   type: working-paper
+  venue: RFF
 
 - title: "Beyond Clean Energy: The Financial Incidence and Health Effects of the IRA"
   url: "https://www.rff.org/publications/issue-briefs/retail-electricity-rates-under-the-inflation-reduction-act-of-2022/"
   year: 2022
   type: working-paper
+  venue: RFF
 
 # ISSUE BRIEFS
 - title: "Promoting Energy Affordability Using State Climate Policy"
   url: "https://www.rff.org/publications/issue-briefs/promoting-energy-affordability-using-state-climate-policy/"
   year: 2025
   type: issue-brief
+  venue: RFF
 
 - title: "Offset Reform Could Drive Investments in Nature-Based Climate Solutions"
   url: "https://www.rff.org/publications/issue-briefs/offset-reform-could-drive-investments-in-nature-based-climate-solutions/"
   year: 2025
   type: issue-brief
+  venue: RFF
 
 - title: "Hidden Costs of Repealing EPA's Carbon Pollution Standards"
   url: "https://www.rff.org/publications/issue-briefs/hidden-costs-of-repealing-epas-carbon-pollution-standards-consequences-for-the-environment-households-and-society/"
   year: 2025
   type: issue-brief
+  venue: RFF
 
 - title: "Projected Impacts of Repealing the Section 45Y and 48E Tax Credits"
   url: "https://www.rff.org/publications/issue-briefs/projected-impacts-of-repealing-the-section-45y-and-48e-technology-neutral-clean-electricity-tax-credits/"
   year: 2025
   type: issue-brief
+  venue: RFF
 
 - title: "Harnessing Carbon Value to Lower Costs in California"
   url: "https://www.rff.org/publications/issue-briefs/harnessing-carbon-value-to-lower-costs-in-california/"
   year: 2025
   type: issue-brief
+  venue: RFF
 
 - title: "Same Emissions Budget, Different Program Revenues: California Cap-and-Trade"
   url: "https://www.rff.org/publications/issue-briefs/california-cap-and-trade-emissions-budget-climate-policy/"
   year: 2024
   type: issue-brief
+  venue: RFF
 
 - title: "Retail Electricity Rates under the Inflation Reduction Act of 2022"
   url: "https://www.rff.org/publications/issue-briefs/retail-electricity-rates-under-the-inflation-reduction-act-of-2022/"
   year: 2022
   type: issue-brief
+  venue: RFF
 
 - title: "Cost Analysis and Emissions Projections under Power Sector Proposals in Reconciliation"
   url: "https://www.rff.org/publications/issue-briefs/cost-analysis-and-emissions-projections-under-power-sector-proposals-in-reconciliation/"
   year: 2021
   type: issue-brief
+  venue: RFF
 
 - title: "Emissions Projections under Alternative Climate Policy Proposals"
   url: "https://www.rff.org/publications/issue-briefs/emissions-projections-under-alternative-climate-policy-proposals/"
   year: 2021
   type: issue-brief
+  venue: RFF
 
 - title: "Emissions Projections for a Trio of Federal Climate Policies"
   url: "https://www.rff.org/publications/issue-briefs/emissions-projections-for-a-trio-of-federal-climate-policies/"
   year: 2021
   type: issue-brief
+  venue: RFF
 
 # BLOG POSTS
 - title: "State Carbon Prices Are Here to Stay"
   url: "https://www.resources.org/common-resources/state-carbon-prices-are-here-to-stay/"
   year: 2025
   type: blog
+  venue: RFF
 
 - title: "If/Then: Unintended Effects of Recent Federal Actions on Electricity Prices"
   url: "https://www.resources.org/common-resources/if-then-unintended-effects-of-recent-federal-actions-on-electricity-prices/"
   year: 2025
   type: blog
+  venue: RFF
 
 - title: "Three Policy Options for Maryland to Achieve Its Decarbonization Goals"
   url: "https://www.resources.org/common-resources/three-policy-options-for-maryland-to-achieve-its-decarbonization-goals-via-the-electricity-sector/"
   year: 2025
   type: blog
+  venue: RFF
 
 - title: "How Much Will the Inflation Reduction Act Reduce Emissions?"
   url: "https://www.resources.org/archives/how-much-will-the-inflation-reduction-act-reduce-emissions/"
   year: 2024
   type: blog
+  venue: RFF
 
 - title: "California's Cap-and-Trade Program and Improvements in Local Air Quality"
   url: "https://www.resources.org/archives/californias-cap-and-trade-program-and-improvements-in-local-air-quality/"
   year: 2023
   type: blog
+  venue: RFF
 
 - title: "What Have We Learned About the Inflation Reduction Act, One Year After?"
   url: "https://www.resources.org/common-resources/what-have-we-learned-about-the-inflation-reduction-act-one-year-after-the-laws-passage/"
   year: 2023
   type: blog
+  venue: RFF
 
 - title: "Celebrating Nature with #MyResources"
   url: "https://www.resources.org/archives/celebrating-nature-with-myresources/"
   year: 2021
   type: blog
+  venue: RFF
 
 - title: "Under Construction: The Build Back Better Act"
   url: "https://www.resources.org/common-resources/under-construction-the-build-back-better-act/"
   year: 2021
   type: blog
+  venue: RFF
 
 # PUBLIC COMMENTS
 - title: "Comment on Repeal of GHG Emissions Standards for Fossil Fuel-Fired EGUs"
   url: "https://www.rff.org/publications/testimony-and-public-comments/comment-on-the-repeal-of-greenhouse-gas-emissions-standards-for-fossil-fuel-fired-electric-generating-units/"
   year: 2025
   type: public-comment
+  venue: RFF
 
 - title: "Comments on the Cap-and-Invest Linkage Rulemaking"
   url: "https://www.rff.org/publications/testimony-and-public-comments/comments-on-the-cap-and-invest-linkage-rulemaking/"
   year: 2024
   type: public-comment
+  venue: RFF
 
 - title: "Comments on Potential Amendments to California's Cap-and-Trade Regulation"
   url: "https://www.rff.org/publications/testimony-and-public-comments/comments-on-potential-amendments-to-californias-cap-and-trade-regulation/"
   year: 2024
   type: public-comment
+  venue: RFF
 
 - title: "Comments on California Cap-and-Trade Amendments and SRIA"
   url: "https://www.rff.org/publications/testimony-and-public-comments/comments-on-potential-amendments-to-californias-cap-and-trade-regulation-and-the-standardized-regulatory-impact-assessment/"
   year: 2024
   type: public-comment
+  venue: RFF
 
 - title: "Comments on Joint California-Quebec Workshop: Cap-and-Trade Amendments"
   url: "https://media.rff.org/documents/231215_CommentsCARB-RFF_rev.pdf"
   year: 2023
   type: public-comment
+  venue: RFF
 
 - title: "Comments on Facility-Specific Caps in California Cap-and-Trade"
   url: "https://www.rff.org/publications/testimony-and-public-comments/comments-to-the-california-air-resources-board-on-implementing-facility-specific-caps-in-the-california-cap-and-trade-program/"
   year: 2023
   type: public-comment
+  venue: RFF
 
 - title: "Defining Financial Benefits of Renewable Facilities for Low-Income Communities"
   url: "https://www.rff.org/publications/testimony-and-public-comments/defining-the-financial-benefits-of-renewable-facilities-placed-in-connection-with-low-income-communities"
   year: 2022
   type: public-comment
+  venue: RFF

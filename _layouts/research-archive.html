@@ -20,22 +20,23 @@ layout: default
 
     {{ content }}
 
-    <ul class="research-list">
-    {% for item in site.data.research %}
-      {% assign show_item = false %}
+    {% assign sorted_research = site.data.research | sort: "year" | reverse %}
+    {% assign current_year = nil %}
 
-      {% if page.filter_field == nil %}
-        {% assign show_item = true %}
-      {% elsif page.filter_field == "year" and item.year == page.filter_value %}
-        {% assign show_item = true %}
-      {% elsif page.filter_field == "type" and item.type == page.filter_value %}
-        {% assign show_item = true %}
+    {% for item in sorted_research %}
+      {% if item.year != current_year %}
+        {% if current_year != nil %}
+          </ul>
+        {% endif %}
+        <h2 class="research-year-header">{{ item.year }}</h2>
+        <ul class="research-list">
+        {% assign current_year = item.year %}
       {% endif %}
-
-      {% if show_item %}
-        {% include research-item.html item=item %}
-      {% endif %}
+      {% include research-item.html item=item %}
     {% endfor %}
-    </ul>
+
+    {% if current_year != nil %}
+      </ul>
+    {% endif %}
   </div>
 </div>

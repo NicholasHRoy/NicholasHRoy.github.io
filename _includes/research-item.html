@@ -1,15 +1,5 @@
 <li class="research-item">
+  <span class="research-venue">{{ include.item.venue }}</span>
+  <span class="research-type">{% case include.item.type %}{% when 'journal' %}Journal Article{% when 'working-paper' %}Working Paper{% when 'issue-brief' %}Issue Brief{% when 'blog' %}Blog Post{% when 'public-comment' %}Public Comment{% endcase %}:</span>
   <a href="{{ include.item.url }}" class="research-title" target="_blank" rel="noopener">{{ include.item.title }}</a>
-  <span class="research-meta">
-    <span class="research-year">{{ include.item.year }}</span>
-    <span class="research-type">
-      {% case include.item.type %}
-        {% when 'journal' %}Journal Article
-        {% when 'working-paper' %}Working Paper
-        {% when 'issue-brief' %}Issue Brief
-        {% when 'blog' %}Blog Post
-        {% when 'public-comment' %}Public Comment
-      {% endcase %}
-    </span>
-  </span>
 </li>
