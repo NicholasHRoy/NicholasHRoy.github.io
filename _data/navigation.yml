@@ -3,8 +3,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "My Work at RFF"
-    url: https://www.rff.org/people/nicholas-roy/
+  - title: "Media Interviews"
+    url: /media/
 
   - title: "CV"
     url: /cv/
+
+  - title: "RFF Page"
+    url: https://www.rff.org/people/nicholas-roy/

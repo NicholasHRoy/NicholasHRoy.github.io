@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    {% if page.description %}
+      <p class="page__lead">{{ page.description }}</p>
+    {% endif %}
+
+    {{ content }}
+
+    {% assign sorted_media = site.data.media | sort: "year" | reverse %}
+    {% assign current_year = nil %}
+
+    {% for item in sorted_media %}
+      {% if item.year != current_year %}
+        {% if current_year != nil %}
+          </ul>
+        {% endif %}
+        <h2 class="research-year-header">{{ item.year }}</h2>
+        <ul class="research-list">
+        {% assign current_year = item.year %}
+      {% endif %}
+      {% include media-item.html item=item %}
+    {% endfor %}
+
+    {% if current_year != nil %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
