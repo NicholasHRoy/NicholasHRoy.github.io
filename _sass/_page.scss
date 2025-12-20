@@ -399,3 +399,42 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Research list
+   ========================================================================== */
+
+.research-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-item {
+  padding: 1em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.research-title {
+  display: block;
+  font-size: $type-size-5;
+  font-weight: bold;
+  color: $link-color;
+  text-decoration: none;
+  margin-bottom: 0.25em;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
+}
+
+.research-meta {
+  display: block;
+  font-size: $type-size-6;
+  color: $muted-text-color;
+}

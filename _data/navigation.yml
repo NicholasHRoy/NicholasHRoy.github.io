@@ -1,25 +1,61 @@
-# main links links
+# main links
 main:
-  # - title: "Publications"
-  #   url: /publications/
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Research"
+    url: /research/
+    children:
+      - title: "All Research"
+        url: /research/
+      - title: "By Jurisdiction"
+        children:
+          - title: "Federal"
+            url: /research/federal/
+          - title: "State"
+            url: /research/state/
+      - title: "By Sector"
+        children:
+          - title: "Power"
+            url: /research/power/
+          - title: "Industrial"
+            url: /research/industrial/
+          - title: "Transportation"
+            url: /research/transportation/
+      - title: "By Policy Type"
+        children:
+          - title: "Carbon Pricing"
+            url: /research/carbon-pricing/
+          - title: "Tradeable Performance Standards"
+            url: /research/tradeable-performance-standards/
+          - title: "Industrial Policy"
+            url: /research/industrial-policy/
+          - title: "Other"
+            url: /research/other-policy/
+      - title: "By Publication Type"
+        children:
+          - title: "Journal Articles"
+            url: /research/journal-articles/
+          - title: "Working Papers"
+            url: /research/working-papers/
+          - title: "Issue Briefs"
+            url: /research/issue-briefs/
+          - title: "Blog Posts"
+            url: /research/blog-posts/
+          - title: "Public Comments"
+            url: /research/public-comments/
+      - title: "By Year"
+        children:
+          - title: "2025"
+            url: /research/2025/
+          - title: "2024"
+            url: /research/2024/
+          - title: "2023"
+            url: /research/2023/
+          - title: "2022"
+            url: /research/2022/
+          - title: "2021"
+            url: /research/2021/
 
   - title: "My Work at RFF"
     url: https://www.rff.org/people/nicholas-roy/
 
   - title: "CV"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/

@@ -10,10 +10,42 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.children %}
+              <li class="masthead__menu-item dropdown">
+                <a href="{{ domain }}{{ link.url }}" class="dropdown-toggle">{{ link.title }} <span class="dropdown-caret"></span></a>
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    {% if child.children %}
+                      <li class="dropdown-submenu">
+                        <a href="#" class="submenu-toggle">{{ child.title }} <span class="submenu-caret"></span></a>
+                        <ul class="submenu">
+                          {% for subchild in child.children %}
+                            {% if subchild.url contains 'http' %}
+                              {% assign subdomain = '' %}
+                            {% else %}
+                              {% assign subdomain = base_path %}
+                            {% endif %}
+                            <li><a href="{{ subdomain }}{{ subchild.url }}">{{ subchild.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                    {% else %}
+                      {% if child.url contains 'http' %}
+                        {% assign childdomain = '' %}
+                      {% else %}
+                        {% assign childdomain = base_path %}
+                      {% endif %}
+                      <li><a href="{{ childdomain }}{{ child.url }}">{{ child.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

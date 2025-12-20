@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    {% if page.description %}
+      <p class="page__lead">{{ page.description }}</p>
+    {% endif %}
+
+    {{ content }}
+
+    <ul class="research-list">
+    {% for item in site.data.research %}
+      {% assign show_item = false %}
+
+      {% if page.filter_field == nil %}
+        {% assign show_item = true %}
+      {% elsif page.filter_field == "year" and item.year == page.filter_value %}
+        {% assign show_item = true %}
+      {% elsif page.filter_field == "type" and item.type == page.filter_value %}
+        {% assign show_item = true %}
+      {% elsif page.filter_field == "jurisdiction" and item.jurisdiction == page.filter_value %}
+        {% assign show_item = true %}
+      {% elsif page.filter_field == "sector" and item.sector == page.filter_value %}
+        {% assign show_item = true %}
+      {% elsif page.filter_field == "policy" and item.policy == page.filter_value %}
+        {% assign show_item = true %}
+      {% endif %}
+
+      {% if show_item %}
+        {% include research-item.html item=item %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>

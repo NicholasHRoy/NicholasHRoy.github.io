@@ -1,0 +1,30 @@
+{% assign type_display = "" %}
+{% case include.item.type %}
+  {% when "journal" %}
+    {% assign type_display = "Journal Article" %}
+  {% when "working-paper" %}
+    {% assign type_display = "Working Paper" %}
+  {% when "issue-brief" %}
+    {% assign type_display = "Issue Brief" %}
+  {% when "blog" %}
+    {% assign type_display = "Blog Post" %}
+  {% when "public-comment" %}
+    {% assign type_display = "Public Comment" %}
+{% endcase %}
+
+{% assign policy_display = "" %}
+{% case include.item.policy %}
+  {% when "carbon-pricing" %}
+    {% assign policy_display = "Carbon Pricing" %}
+  {% when "tradeable-performance-standards" %}
+    {% assign policy_display = "Tradeable Performance Standards" %}
+  {% when "industrial-policy" %}
+    {% assign policy_display = "Industrial Policy" %}
+  {% when "other" %}
+    {% assign policy_display = "Other" %}
+{% endcase %}
+
+<li class="research-item">
+  <a href="{{ include.item.url }}" class="research-title">{{ include.item.title }}</a>
+  <span class="research-meta">{{ policy_display }} &middot; {{ type_display }} &middot; {{ include.item.year }}</span>
+</li>

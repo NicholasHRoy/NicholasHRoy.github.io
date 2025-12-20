@@ -1,4 +1,52 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+// Dropdown menu click handler
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    // Handle main dropdown toggle
+    var dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+    dropdownToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var parent = this.parentElement;
+        var isOpen = parent.classList.contains('open');
+
+        // Close all dropdowns first
+        document.querySelectorAll('.dropdown.open').forEach(function(el) {
+          el.classList.remove('open');
+        });
+
+        // Toggle this one
+        if (!isOpen) {
+          parent.classList.add('open');
+        }
+      });
+    });
+
+    // Handle submenu toggle
+    var submenuToggles = document.querySelectorAll('.submenu-toggle');
+    submenuToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var parent = this.parentElement;
+        parent.classList.toggle('open');
+      });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.dropdown')) {
+        document.querySelectorAll('.dropdown.open').forEach(function(el) {
+          el.classList.remove('open');
+        });
+      }
+    });
+  });
+})();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
