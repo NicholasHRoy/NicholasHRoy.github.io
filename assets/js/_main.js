@@ -60,6 +60,31 @@ $(document).ready(function(){
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
+  // Navigation dropdown menus
+  $(".greedy-nav .dropdown > .dropdown-toggle").on("click", function(e) {
+    e.preventDefault();
+    var $parent = $(this).parent();
+    // Close other open dropdowns
+    $(".greedy-nav .dropdown").not($parent).removeClass("open");
+    $parent.toggleClass("open");
+  });
+
+  // Submenu toggles
+  $(".greedy-nav .dropdown-submenu > .submenu-toggle").on("click", function(e) {
+    e.preventDefault();
+    var $parent = $(this).parent();
+    // Close other open submenus at the same level
+    $parent.siblings(".dropdown-submenu").removeClass("open");
+    $parent.toggleClass("open");
+  });
+
+  // Close dropdowns when clicking outside
+  $(document).on("click", function(e) {
+    if (!$(e.target).closest(".greedy-nav .dropdown").length) {
+      $(".greedy-nav .dropdown").removeClass("open");
+    }
+  });
+
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
