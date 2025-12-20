@@ -8,8 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Nick Roy and I am a policy analyst focused on climate policy in the United States. My primary work focuses on power sector decarbonization. In the past, I researched in the areas of international trade and transportation. Currently, I am a Research Associate at [Resources for the Future (RFF)](https://www.rff.org/). Here, I have developed and utilized the [Haiku Electricity Market Model](https://www.rff.org/topics/data-and-decision-tools/haiku-electricity-model/) to analyze climate policy. This website serves as a collection of my work thus far, and as a home for future additions. Below is a brief narrative of the topics I have studied with links to related products. 
+Hi! My name is Nick Roy and I am a policy analyst focused on energy policy in the United States. My work focuses on subnational energy and emissions market design as well as federal policy for power sector decarbonization. In the past, I researched in the areas of international trade and transportation. Currently, I am a Research Associate at [Resources for the Future (RFF)](https://www.rff.org/). Here, I have developed and utilized the [Haiku Electricity Market Model](https://www.rff.org/topics/data-and-decision-tools/haiku-electricity-model/) to analyze energy policy decisions at the state, regional, and national level. This website serves as a collection of my work thus far, and as a home for future additions. 
 
+<!-- 
 Federal Climate Policy 
 =====
 
@@ -31,7 +32,7 @@ Prior to RFF I was a student at California State University of Long Beach. I gra
 
 Before developing my passion for research, I interned at Goldman Sachs 10,000 Small Businesses, where I fostered local economic development. I moved deeper into my studies and began to tutor mathematics and teach freshman organizational skills as a peer mentor and tutor. As President of the Economics Student Association, I found plenty of opportunities to mentor students and build community in our department. I am still involved with the organization today and annually host a workshop on environmental economics as well as restarting the alumni mentorship program. To me, one of the most rewarding aspects of research is the community that develops in academic and research institutions. At RFF, I continued this passion for community by helping organize the summer intern program at RFF for 2022 and 2023. I enjoy paying forward the valuable mentorship I receive and hope that remains a consistent thread in my career.
 
-<!-- Future Research
+Future Research
 ======
 
 Through my experiences I've become increasingly interested in the intersection of climate policy and trade. Whether it is the complexities of global trade, the distribution of environmental externalities from trucking, how carbon markets expand or add jurisdictions to their regulations, or the fascinating complexity of power markets; trade remains an important element in all of these issues. Working closely on the development of the IRA, it became clear that the biggest constraint on addressing global greenhouse gas emissions is the quickly evolving post-neoliberal era of trade. Even the second order effects of globalization on labor and technological development are shaping the policy mechanisms chosen for decarbonization. One way this has already shaped climate policy is in the revitalization of industrial policy in the US. Domestically, trade is just as relevant as the binding constraint for decarbonization is the development of transmission capacity to flow power across multiple communities with different rules and attitudes towards new infrastructure. 
