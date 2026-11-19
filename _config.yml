@@ -11,7 +11,7 @@ title                    : "Nicholas H. Roy"
 title_separator          : "-"
 name                     : &name "Nicholas H. Roy"
 description              : &description ""
-url                      : https://nicholasroy.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nicholasroy.info # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NicholasHRoy/NicholasHRoy.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -84,10 +84,11 @@ author:
   avatar           : "profile.jpeg"
   bio              : "Energy Economist & Modeler | Researching Institutional Design for Carbon Markets & Power Systems"
   location         : "Washington D.C."
-  employer         : "Resources for the Future"
+  employer         : "U.S. Climate Alliance"
+  employer_url     : "https://usclimatealliance.org/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=NSh5dWEAAAAJ"
-  email            : "roy@rff.org"
+  email            : "nroy@usclimatealliance.org"
   researchgate     : "https://www.researchgate.net/profile/Nicholas-Roy-3"
   uri              :
   bitbucket        :

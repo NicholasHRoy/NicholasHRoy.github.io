@@ -18,9 +18,10 @@ Education
 * **B.A. in Mathematical Economics and Economic Theory**, California State University Long Beach, 2020
 * **Minor**: Philosophy
 
-Research Experience
+Professional Experience
 ======
-* **2024-2025:** Research Associate, Resources for the Future
+* **May 2026-present:** Policy Advisor, U.S. Climate Alliance
+* **2024-May 2026:** Research Associate, Resources for the Future
 * **2023:** Senior Research Analyst, Resources for the Future
 * **2021-2022:** Research Analyst, Resources for the Future
 * **2020:** Research Assistant, Resources for the Future
