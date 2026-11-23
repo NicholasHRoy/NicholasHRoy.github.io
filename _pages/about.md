@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Nick Roy and I am a policy analyst focused on energy and climate issues in the United States. My work focuses on subnational climate finance and emissions market design. In the past, I done research on trade, transporation, and the electricity sector. Currently, I am a Policy Advisor at the [U.S. Climate Alliance](https://usclimatealliance.org/) where I lead our teams work on climate finance, pricing carbon, and valuing climate damages. Previously, I was a Research Associate at Resources for the Future (RFF), where I developed and utilized the [Haiku Electricity Market Model](https://www.rff.org/topics/data-and-decision-tools/haiku-electricity-model/) to analyze energy policy decisions at the state, regional, and national level. This website serves as a collection of my work thus far, and as a home for future additions. 
+Hi! My name is Nick Roy and I am a policy analyst focused on energy and climate issues in the United States. My work focuses on subnational climate finance and emissions market design. In the past, I have done research on trade, transportation, and the electricity sector. Currently, I am a Policy Advisor at the [U.S. Climate Alliance](https://usclimatealliance.org/) where I lead our team's work on climate finance, pricing carbon, and valuing climate damages. Previously, I was a Research Associate at Resources for the Future (RFF), where I developed and utilized the [Haiku Electricity Market Model](https://www.rff.org/topics/data-and-decision-tools/haiku-electricity-model/) to analyze energy policy decisions at the state, regional, and national level. This website serves as a collection of my work thus far, and as a home for future additions. 
 
 <!-- 
 Federal Climate Policy 
